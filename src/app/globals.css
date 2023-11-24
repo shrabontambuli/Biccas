@@ -2,26 +2,54 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+.bg {
+  background-color: #54BD95;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.bg2 {
+  /* background-color: #ddf0ec; */
+  background: linear-gradient(90deg, rgba(221, 240, 236, 1) 0%, rgba(255, 255, 255, 1) 47%, rgba(221, 240, 236, 1) 100%);
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.bg3 {
+  background-color: #161C28;
+}
+
+.bg4 {
+  background: linear-gradient(141deg, rgba(255, 255, 255, 1) 0%, rgba(250, 240, 240, 1) 33%, rgba(255, 255, 255, 1) 69%, rgba(202, 255, 235, 1) 100%);
+}
+
+.text1 {
+  color: #54BD95;
+}
+
+.textp {
+  color: #A6A6A6;
+}
+
+.box1 {
+  background: #FFF;
+  box-shadow: 0px 4px 9px 0px rgba(0, 0, 0, 0.05);
+}
+
+.box2 {
+  border-radius: 10px;
+  background: #FFF;
+  box-shadow: 0px 4px 9px 0px rgba(0, 0, 0, 0.05);
+}
+
+.box3 {
+  border-radius: 20px;
+  background: #FFF;
+  box-shadow: 0px 4px 9px 0px rgba(0, 0, 0, 0.05);
+}
+
+.box4 {
+  border-radius: 10px;
+  background: #F9FAFB;
+}
+
+.box5 {
+  border-radius: 200px 200px 20px 20px;
+  background: #6BC2A1;
 }
