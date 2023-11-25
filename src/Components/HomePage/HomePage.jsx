@@ -402,6 +402,7 @@ const HomePage = () => {
 
                         </div>
                     </div>
+                    
 
                     <div className="mt-28">
                         <div className="text-center">
