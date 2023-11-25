@@ -1,5 +1,4 @@
 import Image from "next/image";
-import '../../app/globals.css'
 import Image4 from "../../../public/images/4.jpg";
 import Image6 from "../../../public/images/charli.png";
 import Image7 from "../../../public/images/card.png";

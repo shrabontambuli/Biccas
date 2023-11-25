@@ -1,4 +1,4 @@
-import '../../app/globals.css'
+
 
 const Navber = () => {
     return (
