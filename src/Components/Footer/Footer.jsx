@@ -12,7 +12,7 @@ const Footer = () => {
             <div className="container mx-auto py-10">
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 items-center">
                     <div className="px-10">
-                        <h1 className="text-white text-4xl md:text-3xl lg:text-5xl">People are Saying About DoWhith</h1>
+                        <h1 className="text-white text-4xl md:text-3xl lg:text-5xl">People are Saying About Do Whith</h1>
 
                         <p className="textp mt-8 lg:w-9/12">Everything you need to accept to payment and grow your money of manage anywhere on planet</p>
 
